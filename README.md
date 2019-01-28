@@ -8,19 +8,14 @@ This is the early start of testing, the test I created in a day to day situation
 ### How to download
 1. To download a copy click on 'clone or download' and you can download it as a zip file.
 2. Unzip the file
-3. Open up the file index.html
-
-# Alternative
-1. If you choose to clone it go into your terminal.
-2. Create a directory
-3. Type git clone followed by the link obtained via opening 'clone or download'
-4. This will make copy to the directory you're in.
-5. Go to that directory
-6. Open index.html
+3. Open up the folder
+4. make sure you're in the directory of league
+5. type rspec
+6. tests should then display in the terminal, whether they're correct or incorrect.
 
 ### Challenges (you can include images and code block here)
 1. I didn't realise how small the API was, this meant that limited testing could be done.
-2. I was given a bad API key which meant that I was having an unncessary issue.
+2. I was given a bad API key which meant that I was having an unauthrisation issue 403.
 
 ### Learning points
 1. A better understanding of Ruby.
