@@ -1,9 +1,13 @@
-# Testing API calling
+# Testing API(Application Programming Interface) calling
 ### Description
 This is the early start of testing, the test I created in a day to day situation could represent the idea of regression tests. The idea of testing APIs is to retrieve data, from either XML or JSON file. In some of these tests, there cannot be a difference in ID and accountID are examples of static elements which will not change. Where the summonerIconId will be a typical dynamic attribute that could possibly change. By testing these you can see if the summoner(person) has changed their summonerIconId. 
 
 ### Languages used
 * Ruby
+
+### API used
+Source(https://developer.riotgames.com/)
+
 
 ### How to download
 1. To download a copy click on 'clone or download' and you can download it as a zip file.

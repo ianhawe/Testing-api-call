@@ -1,6 +1,5 @@
 require 'spec_helper'
 describe 'riot games api' do
-
   before(:all) do
     @api_key = ENV['LEAGUE_API_KEY']
     @api_calling = ParseJSON.new(HTTParty::get("https://na1.api.riotgames.com/lol/summoner/v3/summoners/by-name/RiotSchmick?api_key=#{@api_key}").body).json_data
@@ -11,7 +10,7 @@ describe 'riot games api' do
     expect(@api_calling).to be_kind_of(Hash)
   end
   it `the player's id should be 585897` do
-  expect(@api_calling['id']).to eq 585_897
+    expect(@api_calling['id']).to eq 585_897
   end
   it `The player's accountId should be` do
     expect(@api_calling['accountId']).to eq 316_495_72
