@@ -1,6 +1,6 @@
 # Testing API calling
 ### Description
-This is the early start of testing, the test I created in a day to day situation could represent the idea of regression tests. The idea of testing APIs is to have a feel for data which is coming in from unknown format and to read, display and test this data to fit specific tests. In some of the tests, a difference in ID and accountID are examples of static elements which will not change where the summonerIconId will be a typical dynamic attribute that could possible change. By testing these you can see if the summoner(person) has changed their summonerIconId. 
+This is the early start of testing, the test I created in a day to day situation could represent the idea of regression tests. The idea of testing APIs is to retrieve data, from either XML or JSON file. In some of these tests, there cannot be a difference in ID and accountID are examples of static elements which will not change. Where the summonerIconId will be a typical dynamic attribute that could possibly change. By testing these you can see if the summoner(person) has changed their summonerIconId. 
 
 ### Languages used
 * Ruby
@@ -11,7 +11,7 @@ This is the early start of testing, the test I created in a day to day situation
 3. Open up the folder
 4. make sure you're in the directory of league
 5. type rspec
-6. tests should then display in the terminal, whether they're correct or incorrect.
+6. tests should then display in the terminal, whether they're correct or failure.
 
 ### Challenges (you can include images and code block here)
 1. I didn't realise how small the API was, this meant that limited testing could be done.
